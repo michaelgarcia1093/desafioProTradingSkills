@@ -1,0 +1,325 @@
+:root {
+
+    /* Colors: */
+    --unnamed-color-11b0c8: #11B0C8;
+    --unnamed-color-ffffff: #FFFFFF;
+    
+    /* Font/text values */
+    --unnamed-font-family-montserrat: Montserrat;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-600: 600px;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-size-18: 18px;
+    --unnamed-font-size-43: 43px;
+    --unnamed-font-size-53: 53px;
+    --unnamed-font-size-103: 103px;
+    --unnamed-character-spacing-15: 15px;
+    --unnamed-line-spacing-14: 14px;
+    --unnamed-line-spacing-18: 18px;
+    --unnamed-line-spacing-43: 43px;
+    }
+    
+    /* Character Styles */
+    h1{
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-600);
+    font-size: var(--unnamed-font-size-53);
+    line-height: var(--unnamed-line-spacing-18);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-11b0c8);
+    }
+    h2{
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-600);
+    font-size: var(--unnamed-font-size-103);
+    line-height: var(--unnamed-line-spacing-18);
+    letter-spacing: var(--unnamed-character-spacing-15);
+    color: var(--unnamed-color-ffffff);
+    }
+    a{
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-medium);
+    font-size: var(--unnamed-font-size-18);
+    line-height: var(--unnamed-line-spacing-14);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-11b0c8);
+    }
+
+    .page-head{
+        background-color:#3C3E44;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 65px;
+    }
+
+    body{
+        background-color:#24282F;
+    }
+     header{
+         left:-53px !important;
+         top:-5px !important;
+     }
+
+     .menu-link {
+        display: inline-block;
+        margin-left: 42px;
+        text-decoration: none;
+     }
+     .contenedor{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        z-index: 1;
+        width:100%;
+        max-width: 1920px;
+        flex-wrap: wrap;
+    }
+    .texto-encima{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .centrado{
+        position: absolute;
+        top: 10%;
+        left: 12%;
+    }
+    .centrado h2{
+        font-size: 80px;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 103px/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-ffffff);
+        text-align: left;
+        font: normal normal 600 103px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .three-columns {
+        margin-left: 10%;
+        margin-top: -5%;
+        -webkit-column-count: 3; 
+        -moz-column-count: 3; 
+        column-count: 3;
+        margin-bottom: 10%;
+        min-width: 250px;
+	    column-width: 140px;
+    }
+    /* .three-columns{
+        float: left;
+        width:33%;
+    } */
+
+    .two-columns {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        margin-top:5%;
+    }
+
+    .card{
+        /* Layout Properties */
+        top: 710px;
+        left: 228px;
+        width: 446px;
+        height: 596px;
+        /* UI Properties */
+        background: #3C3E44 0% 0% no-repeat padding-box;
+        border-radius: 25px;
+        opacity: 1;
+        min-width: 250px;
+        z-index: 0;
+    }
+    .cardFinal{
+        /* Layout Properties */
+        top: 710px;
+        left: 228px;
+        width: 446px;
+        height: 596px;
+        /* UI Properties */
+        background: #3C3E44 0% 0% no-repeat padding-box;
+        border-radius: 25px;
+        opacity: 1;
+        min-width: 250px;
+        z-index: 0;
+    }
+
+    
+    .tituloCard{
+        width:100%;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-43)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-montserrat);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-ffffff);
+        text-align: left;
+        font: normal normal bold 43px/43px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-left:5%;
+    }
+
+    .loadMore{
+        top: 2042px;
+        top: 2042px;
+        left: 774px;
+        width: 372px;
+        height: 67px;
+        /* UI Properties */
+        background: var(--unnamed-color-11b0c8) 0% 0% no-repeat padding-box;
+        color: var(--unnamed-color-ffffff);
+        border-radius: 25px;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 25px/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-ffffff);
+        text-align: center;
+        font: normal normal 600 25px/18px Montserrat;
+        letter-spacing: 1px;
+        margin-bottom: 5%;
+    }
+    
+    /* Add rounded corners to the top left and the top right corner of the image */
+    img {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .fondo{
+        border-radius: 0;
+
+    }
+
+    #columnaIzq{
+        margin-left: 0%;
+    }
+
+    #columnaDer{
+        margin-left: 15%;
+        padding-top:5%;
+    }
+
+    * {
+        margin:0;
+        padding:0;
+        }
+
+    .iconoStatus{
+        margin-bottom: -7%;
+    }
+
+
+    /*Responsive*/
+
+    .mostrar-menu,
+    .esconder-menu{
+        cursor: pointer;
+        display: none;
+        transition:0.4s;
+    }
+
+    .mostrar-menu{
+        order:1;
+    }
+
+    #check{
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+       .mostrar-menu,
+       .esconder-menu{
+           display:block;
+        }        
+    
+        .menu{
+            position:fixed;
+            width:100%;
+            height:100vh;
+            right:-100%;
+            top:0;
+            text-align:center;
+            padding:100px 0px;
+            z-index: 100;
+            transition:0.8;
+        }
+
+        .menu a{
+            display:block;
+            top: 40px;
+            right:40px;
+        }
+
+        #check:checked ~ .menu{
+            right: 0;
+        }
+
+        .three-columns {
+            -webkit-column-count: 1; 
+            -moz-column-count: 1; 
+            column-count: 1;
+            min-width: 250px;
+            column-width: 140px;
+        }
+        
+        .centrado{
+            top: 0.7%;
+            left: 7%;
+
+        }
+
+        .centrado h2{
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 103px/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--unnamed-color-ffffff);
+            text-align: left;
+            font: normal normal 600 63px/18px Montserrat;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+            align-items: center;
+        }
+        
+        .card{
+            /* Layout Properties */
+            width: 344px;
+            height:520px;
+            /* UI Properties */
+            background: #3C3E44 0% 0% no-repeat padding-box;
+            border-radius: 25px;
+            opacity: 1;
+            margin-bottom: 10%;
+            margin-left: -4.5%;
+        }
+
+            
+        .tituloCard{
+            width:70%;
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-43)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-montserrat);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--unnamed-color-ffffff);
+            text-align: left;
+            font: normal normal bold 43px/43px Montserrat;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+            margin-left:5%;
+        }
+
+        .page-head{
+            display: none;
+        }
+
+        footer{
+            display: block
+        }
+
+        .cardFinal{
+            display: none
+        }
+    }
+
+    footer{display: none}

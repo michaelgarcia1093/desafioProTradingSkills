@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+<!-- Se muestra el logo en la pestaña del navegador -->
+<link rel="shortcut icon" href="img/logo.png">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Técnico</title>    
+</head>
+
+<!-- Cuerpo de página principal -->
+<body>
+<div id="contenedor" class="contenedor">
+
+    <!-- Header con el menu -->
+    <header class="page-head">
+        <a href="#" class="logo" id="titulo">
+            <img src="img/logo.png" alt="logo" style="width: 309px; height: 123px;margin-left: 5%;">
+        </a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+          &#8801
+        </label>
+        <nav class="menu">
+            <a href="#" class="menu-link">Docs</a>
+            <a href="#" class="menu-link">About</a>
+            <a href="#" class="menu-link">Help</a>
+            <label for="check" class="esconder-menu">
+              &#215
+            </label>
+        </nav>
+    </header>
+    
+    <!--Se muestra la imágen de fondo con su texto arriba-->
+    <img src="img/fondo.jpg" class="fondo" style="width:100%;"/>
+    <div class="centrado" >
+      <h2>Characters</h2>
+    </div>
+
+    <!-- Clase para dividir la versión web en tres columnas donde se mostraran los Cards -->
+    <div class="three-columns">
+        <div class="card" id="card1">
+          <!-- Clase imagenCard para mostrar la imágen correspondiente con JavaScript -->
+          <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+
+
+          <!-- Clase tituloCard para mostrar el título correspondiente con JavaScript -->
+          <div class="tituloCard"></div>
+            
+          <!-- Clase two-columns para separar la información de status y especias a la izquierda con su imágen de estado y a la derecha el origen -->
+          <div class="two-columns">
+              <div id="columnaIzq">
+
+                <!-- Clase iconoStatus para mostrar la imágen correspondiente que depende del status con JavaScript -->
+                <img class="iconoStatus">
+
+                <!-- Clase statusCard para mostrar el status correspondiente con JavaScript -->
+                <a class="statusCard"></a>
+                <a>-</a>
+
+                <!-- Clase speciesCard para mostrar la especie correspondiente con JavaScript -->
+                <a class="speciesCard"></a>
+              </div>
+              <div id="columnaDer">
+
+                <!-- Clase originNameCard para mostrar el irígen correspondiente con JavaScript -->
+                <a class="originNameCard"></a>
+              </div>
+          </div>
+            
+        </div>
+        <div class="card" id="card2">
+            <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+            <div class="tituloCard"></div>
+            
+            <div class="two-columns">
+              <div id="columnaIzq">
+                <img class="iconoStatus">
+                <a class="statusCard"></a>
+                <a>-</a>
+                <a class="speciesCard"></a>
+              </div>
+              <div id="columnaDer">
+                <a class="originNameCard"></a>
+              </div>
+            </div>
+        </div>
+          
+        <div class="card" id="card3">
+            <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+            <div class="tituloCard"></div>
+            
+            <div class="two-columns">
+              <div id="columnaIzq">
+                <img class="iconoStatus">
+                <a class="statusCard"></a>
+                <a>-</a>
+                <a class="speciesCard"></a>
+              </div>
+              <div id="columnaDer">
+                <a class="originNameCard"></a>
+              </div>
+            </div>
+        </div>
+    </div>
+        <div class="three-columns">
+              <div class="card" id="card4">
+                <img  class="imagenCard" src="" alt="Avatar" style="width:100%">
+                <div class="tituloCard"></div>
+                <div class="two-columns">
+                  <div id="columnaIzq">
+                    <img class="iconoStatus">
+                    <a class="statusCard"></a>
+                    <a>-</a>
+                    <a class="speciesCard"></a>
+                  </div>
+                  <div id="columnaDer">
+                    <a class="originNameCard"></a>
+                  </div>
+                </div>
+              </div>      
+            <div class="card" id="card5">
+                <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+                <div class="tituloCard"></div>
+                <div class="two-columns">
+                  <div id="columnaIzq">
+                    <img class="iconoStatus">
+                    <a class="statusCard"></a>
+                    <a>-</a>
+                    <a class="speciesCard"></a>
+                  </div>
+                  <div id="columnaDer">
+                    <a class="originNameCard"></a>
+                  </div>
+                </div>
+              </div>
+            <div class="card" id="card6">
+                <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+                <div class="tituloCard"></div>
+               
+                <div class="two-columns">
+                  <div id="columnaIzq">
+                    <img class="iconoStatus">
+                    <a class="statusCard"></a>
+                    <a>-</a>
+                    <a class="speciesCard">C</a>
+                  </div>
+                  <div id="columnaDer">
+                    <a class="originNameCard"></a>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="three-columns">
+          <div class="card" id="card7">
+              <img  class="imagenCard" src="" alt="Avatar" style="width:100%">
+              <div class="tituloCard"></div>
+              <div class="two-columns">
+                <div id="columnaIzq">
+                  <img class="iconoStatus">
+                  <a class="statusCard"></a>
+                  <a>-</a>
+                  <a class="speciesCard"></a>
+                </div>
+                <div id="columnaDer">
+                  <a class="originNameCard"></a>
+                </div>
+              </div>
+            </div>      
+          <div class="card" id="card8">
+              <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+              <div class="tituloCard"></div>
+              <div class="two-columns">
+                <div id="columnaIzq">
+                  <img class="iconoStatus">
+                  <a class="statusCard"></a>
+                  <a>-</a>
+                  <a class="speciesCard"></a>
+                </div>
+                <div id="columnaDer">
+                  <a class="originNameCard"></a>
+                </div>
+              </div>
+            </div>
+          <div class="card" id="card9">
+              <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+              <div class="tituloCard"></div>
+              <div class="two-columns">
+                <div id="columnaIzq">
+                  <img class="iconoStatus">
+                  <a class="statusCard"></a>
+                  <a>-</a>
+                  <a class="speciesCard">C</a>
+                </div>
+                <div id="columnaDer">
+                  <a class="originNameCard"></a>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="three-columns">
+        <div class="card" id="card10">
+            <img  class="imagenCard" src="" alt="Avatar" style="width:100%">
+            <div class="tituloCard"></div>
+            <div class="two-columns">
+              <div id="columnaIzq">
+                <img class="iconoStatus">
+                <a class="statusCard"></a>
+                <a>-</a>
+                <a class="speciesCard"></a>
+              </div>
+              <div id="columnaDer">
+                <a class="originNameCard"></a>
+              </div>
+            </div>
+          </div>      
+        <div class="card" id="card11">
+            <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+            <div class="tituloCard"></div>
+            <div class="two-columns">
+              <div id="columnaIzq">
+                <img class="iconoStatus">
+                <a class="statusCard"></a>
+                <a>-</a>
+                <a class="speciesCard"></a>
+              </div>
+              <div id="columnaDer">
+                <a class="originNameCard"></a>
+              </div>
+            </div>
+          </div>
+        <div class="card" id="card12">
+            <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+            <div class="tituloCard"></div>
+            <div class="two-columns">
+              <div id="columnaIzq">
+                <img class="iconoStatus">
+                <a class="statusCard"></a>
+                <a>-</a>
+                <a class="speciesCard">C</a>
+              </div>
+              <div id="columnaDer">
+                <a class="originNameCard"></a>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="three-columns">
+      <div class="card" id="card13">
+          <img  class="imagenCard" src="" alt="Avatar" style="width:100%">
+          <div class="tituloCard"></div>
+          <div class="two-columns">
+            <div id="columnaIzq">
+              <img class="iconoStatus">
+              <a class="statusCard"></a>
+              <a>-</a>
+              <a class="speciesCard"></a>
+            </div>
+            <div id="columnaDer">
+              <a class="originNameCard"></a>
+            </div>
+          </div>
+        </div>      
+      <div class="card" id="card14">
+          <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+          <div class="tituloCard"></div>
+          <div class="two-columns">
+            <div id="columnaIzq">
+              <img class="iconoStatus">
+              <a class="statusCard"></a>
+              <a>-</a>
+              <a class="speciesCard"></a>
+            </div>
+            <div id="columnaDer">
+              <a class="originNameCard"></a>
+            </div>
+          </div>
+        </div>
+      <div class="card" id="card15">
+          <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+          <div class="tituloCard"></div>
+          <div class="two-columns">
+            <div id="columnaIzq">
+              <img class="iconoStatus">
+              <a class="statusCard"></a>
+              <a>-</a>
+              <a class="speciesCard">C</a>
+            </div>
+            <div id="columnaDer">
+              <a class="originNameCard"></a>
+            </div>
+          </div>
+        </div>
+  </div>
+  <div class="three-columns">
+    <div class="card" id="card16">
+        <img  class="imagenCard" src="" alt="Avatar" style="width:100%">
+        <div class="tituloCard"></div>
+        <div class="two-columns">
+          <div id="columnaIzq">
+            <img class="iconoStatus">
+            <a class="statusCard"></a>
+            <a>-</a>
+            <a class="speciesCard"></a>
+          </div>
+          <div id="columnaDer">
+            <a class="originNameCard"></a>
+          </div>
+        </div>
+      </div>      
+    <div class="card" id="card17">
+        <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+        <div class="tituloCard"></div>
+        <div class="two-columns">
+          <div id="columnaIzq">
+            <img class="iconoStatus">
+            <a class="statusCard"></a>
+            <a>-</a>
+            <a class="speciesCard"></a>
+          </div>
+          <div id="columnaDer">
+            <a class="originNameCard"></a>
+          </div>
+        </div>
+      </div>
+    <div class="card" id="card18">
+        <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+        <div class="tituloCard"></div>
+        <div class="two-columns">
+          <div id="columnaIzq">
+            <img class="iconoStatus">
+            <a class="statusCard"></a>
+            <a>-</a>
+            <a class="speciesCard">C</a>
+          </div>
+          <div id="columnaDer">
+            <a class="originNameCard"></a>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="three-columns">
+  <div class="card" id="card19">
+      <img  class="imagenCard" src="" alt="Avatar" style="width:100%">
+      <div class="tituloCard"></div>
+      <div class="two-columns">
+        <div id="columnaIzq">
+          <img class="iconoStatus">
+          <a class="statusCard"></a>
+          <a>-</a>
+          <a class="speciesCard"></a>
+        </div>
+        <div id="columnaDer">
+          <a class="originNameCard"></a>
+        </div>
+      </div>
+    </div>      
+  <div class="card" id="card20">
+      <img class="imagenCard" src="" alt="Avatar" style="width:100%">
+      <div class="tituloCard"></div>
+      <div class="two-columns">
+        <div id="columnaIzq">
+          <img class="iconoStatus">
+          <a class="statusCard"></a>
+          <a>-</a>
+          <a class="speciesCard"></a>
+        </div>
+        <div id="columnaDer">
+          <a class="originNameCard"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardFinal" id="card21" style="background-color: #24282F;">
+    </div>  
+
+  </div>
+
+
+  <!-- Apartado de botones con función Onclick que muestra los siguientes 20 de la api o los anteriores 20 -->
+    <div>
+        <button id="ant" class="loadMore" onclick=clickBotonAnt()>Go Back</button>
+        <button id="sig" class="loadMore" onclick=clickBoton()>Load More</button>
+      </div>
+</div>
+
+<!-- llamado al archivo JavaScript -->
+<script src="apiConsumo.js" type="text/javascript"></script>
+
+</body>
+
+
+<!-- Footer que se utilizaría en versión móvil en este caso-->
+<footer>
+
+  <header class="">
+    <a href="#" class="logo" id="titulo">
+        <img src="img/logo.png" alt="logo" style="width: 309px; height: 123px;margin-left: 5%;">
+    </a>
+
+    <input type="checkbox" id="check">
+    <label for="check" class="mostrar-menu">
+      &#8801
+    </label>
+    <nav class="menu">
+        <a href="#" class="menu-link">Docs</a>
+        <a href="#" class="menu-link">About</a>
+        <a href="#" class="menu-link">Help</a>
+        <label for="check" class="esconder-menu">
+          &#215
+        </label>
+    </nav>
+</header>
+
+</footer>
+</html>
